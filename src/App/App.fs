@@ -172,4 +172,4 @@ let view() =
     ] |> withStyle appStyle
 
 // Start the app
-view() |> Program.mountElement "sutil-app"
+view() |> mountElement "sutil-app"
